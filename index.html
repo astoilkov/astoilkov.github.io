@@ -3,82 +3,105 @@
 		<title>Antonio Stoilkov</title>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
-		<link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+		<link href="http://fonts.googleapis.com/css?family=Raleway:400" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/main.css"></link>
+		<style>
+			body {
+				font-family: "Raleway", "Source Sans Pro", sans-serif;
+				font-size: 19px;
+				font-weight: 400;
+				letter-spacing: 1px;
+				line-height: 48px;
+				text-align: center;
+				color: #333;
+				display: table;
+				height: 100%;
+				width: 100%;
+				margin: 0;
+				padding: 0;
+			}
+
+			a, a:visited, a:active {
+				color: #37b;
+				text-decoration: none;
+			}
+
+			img {
+				margin-left: -7px;
+				border-radius: 75px;
+			}
+
+			p {
+				margin: 24px;
+			}
+
+			.row {
+				display: table-row;
+			}
+
+			.cell {
+				display: table-cell;
+				height: 1px;
+			}
+
+			.fa {
+				font-size: 40px;
+			}
+
+			.fa-github {
+				color: #333;
+			}
+
+			.fa-twitter {
+				color: #20AEEE;
+				margin: 0 96px;
+			}
+
+			.fa-envelope-o {
+				color: #dd4b39;
+			}
+
+			@media (max-width: 340px) {
+				.fa-twitter {
+					margin: 0 72px;
+				}
+			}
+		</style>
 	</head>
 	<body>
-		
-		<div id="header" class="header">
-			<img src="http://www.gravatar.com/avatar/69ba6e15a93bd104c3ba525637eb6aa7.png?size=100" />
-			
-			<h1>antonio stoilkov</h1>
-			
-			<div class="icons">
-				<a href="https://github.com/astoilkov"><span class="fa fa-github"></span></a>
-				<a href="https://twitter.com/antoniostoilkov"><span class="fa fa-twitter"></span></a>
-				<a href="mailto:hello@astoilkov.com"><span class="fa fa-envelope-o"></span></a>	
-			</div>
-			
-				
-			<h2>developer with entrepreneurial spirit</h2>
-			
-			<a style="display: none;" href="#timeline"><span class="fa fa-angle-double-down"></span></a>
-		</div>
-		<div class="container" style="display: none">
-			<ul>
-				<li>created <a href="http://jsblocks.com">jsblocks</a></li>
-				<li>worked in <a href="http://telerik.com">Telerik</a> as Senior Software Developer and Scrum Master</li>
-				<li>give lectures to kids in Math school</li>
-				<li>give lectures in Telerik Academy</li>
-				<li>attended IT compettions</li>
-				<li>design</li>
-			</ul>
-		</div>
-		<div id="timeline"  class="timeline-wrapper" style="display: none">
-			<div class="container timeline">
-				<div class="time jsblocks first">
-					<div class="bubble">
-						<h2>jsblocks</h2>
-					</div>
-					<div class="line">
-						
-					</div>
-					<div class="year">
-						2015
-					</div>
+
+		<div class="row"></div>
+
+		<div class="row">
+			<div class="cell">
+
+				<img src="http://www.gravatar.com/avatar/69ba6e15a93bd104c3ba525637eb6aa7.png?size=100" />
+
+				<p>
+					antonio stoilkov
+					<br />
+					maker of <a href="http://jsblocks.com">jsblocks</a> and <a href="http://caret.io">Caret</a>
+				</p>
+
+				<div class="icons">
+					<a href="https://github.com/astoilkov"><span class="fa fa-github"></span></a>
+					<a href="https://twitter.com/antoniostoilkov"><span class="fa fa-twitter"></span></a>
+					<a href="mailto:hello@astoilkov.com"><span class="fa fa-envelope-o"></span></a>
 				</div>
-				<div class="clear-fix"></div>
-				<div class="time reverse telerik last">
-					<div class="year">
-						2012 - 2014
-					</div>
-					<div class="line">
-						
-					</div>
-					<div class="bubble">
-						<h2>Telerik</h2>
-					</div>
-					
-				</div>
-				<div class="clear-fix"></div>
-			</div>
-			<div id="particles">
+
 			</div>
 		</div>
-		
-		<!-- scripts -->
-		<script src="bower_components/particles.js/particles.js"></script>
-		<script src="js/main.js"></script>
+
+		<div class="row"></div>
+
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-		
+
 		  ga('create', 'UA-21529381-9', 'auto');
 		  ga('send', 'pageview');
-		
 		</script>
 	</body>
 </html>
