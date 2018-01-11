@@ -3,49 +3,76 @@
 		<title>Antonio Stoilkov</title>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
-		<link href="http://fonts.googleapis.com/css?family=Raleway:400" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 		<style>
 			body {
-				font-family: "Raleway", "Source Sans Pro", sans-serif;
+				font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
 				font-size: 19px;
-				font-weight: 400;
-				letter-spacing: 1px;
-				line-height: 48px;
-				text-align: center;
-				color: #333;
-				display: table;
-				height: 100%;
-				width: 100%;
+				line-height: 1.8em;
+				color: #0f0f0f;
 				margin: 0;
 				padding: 0;
 			}
 
+			.container {
+				width: 640px;
+				margin: 40px auto;
+			}
+
 			a, a:visited, a:active {
-				color: #37b;
-				text-decoration: none;
+				color: #000;
+				text-decoration-skip: ink;
 			}
 
 			img {
-				margin-left: -7px;
 				border-radius: 75px;
 			}
 
+			ul {
+				list-style-type: none;
+				padding: 0;
+				margin: 0;
+			}
+
 			p {
-				margin: 24px;
+				font-size: 16px;
+				line-height: 26px;
 			}
 
-			.row {
-				display: table-row;
+			h1 {
+				font-size: 30px;
 			}
 
-			.cell {
-				display: table-cell;
-				height: 1px;
+			h3 {
+				margin-top: 60px;
+				text-align: left;
+			}
+
+			header {
+				text-align: center;
+			}
+
+			.articles {
+				font-size: 16px;
+				text-align: left;
+			}
+
+			.articles li {
+				cursor: pointer;
+			}
+
+			.articles li time {
+				float: right;
+				text-transform: uppercase;
+				font-size: 12px;
+			}
+
+			.articles li p {
+				margin-top: 0;
 			}
 
 			.fa {
-				font-size: 40px;
+				font-size: 30px;
 			}
 
 			.fa-github {
@@ -54,23 +81,68 @@
 
 			.fa-twitter {
 				color: #20AEEE;
-				margin: 0 96px;
+				margin: 0 15px;
 			}
 
 			.fa-envelope-o {
 				color: #dd4b39;
 			}
-
-			@media (max-width: 340px) {
-				.fa-twitter {
-					margin: 0 72px;
-				}
-			}
 		</style>
 	</head>
 	<body>
 
-		<div class="row"></div>
+		<div class="container">
+			<header>
+				<img src="http://www.gravatar.com/avatar/69ba6e15a93bd104c3ba525637eb6aa7.png?size=100" />
+
+				<h1>Antonio Stoilkov</h1>
+
+				<p>
+					I love building products. I am most proud of <a href="https://caret.io">Caret</a> and <a href="https://jsblocks.com">jsblocks</a>.
+					<br>
+					You can learn more <a href="#">about me here</a>
+				</p>
+
+				<p>
+					<a href="https://github.com/astoilkov"><span class="fa fa-github"></span></a>
+					<a href="https://twitter.com/antoniostoilkov"><span class="fa fa-twitter"></span></a>
+					<a href="mailto:hello@astoilkov.com"><span class="fa fa-envelope-o"></span></a>
+				</p>
+			</header>
+
+			<!-- <header> -->
+				
+
+				<!-- <div class="icons">
+					<a href="https://github.com/astoilkov"><span class="fa fa-github"></span></a>
+					<a href="https://twitter.com/antoniostoilkov"><span class="fa fa-twitter"></span></a>
+					<a href="mailto:hello@astoilkov.com"><span class="fa fa-envelope-o"></span></a>
+				</div> -->
+
+				<!-- <ul>
+					<li>About</li>
+				</ul>
+			</header> -->
+
+			<h3>Writings</h3>
+			<ul class="articles">
+				<li>
+					<a href="#">desktop-prism - code highlighting optimized for desktop apps</a>
+					<time>30 days ago</time>
+				</li>
+				<li>
+					<a href="#">Realization I made after working for 2 years on a MVC framework</a>
+					<time>30 days ago</time>
+				</li>
+				<li>
+					<a href="#">Introducing jsblocks MVC framework 3 years later</a>
+					<time>30 days ago</time>
+				</li>
+			</ul>
+		</div>
+		
+
+		<!-- <div class="row"></div>
 
 		<div class="row">
 			<div class="cell">
@@ -83,16 +155,12 @@
 					maker of <a href="http://jsblocks.com">jsblocks</a> and <a href="http://caret.io">Caret</a>
 				</p>
 
-				<div class="icons">
-					<a href="https://github.com/astoilkov"><span class="fa fa-github"></span></a>
-					<a href="https://twitter.com/antoniostoilkov"><span class="fa fa-twitter"></span></a>
-					<a href="mailto:hello@astoilkov.com"><span class="fa fa-envelope-o"></span></a>
-				</div>
+				
 
 			</div>
 		</div>
 
-		<div class="row"></div>
+		<div class="row"></div> -->
 
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
