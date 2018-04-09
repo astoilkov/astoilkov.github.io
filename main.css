@@ -1,0 +1,82 @@
+body {
+  font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  /* color: #333; */
+  color: rgb(26, 34, 50);
+  display: table;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+}
+
+a, a:visited, a:active {
+  color: #37b;
+  text-decoration: none;
+}
+
+.fa {
+  font-size: 18px;
+}
+
+.fa-github {
+  color: #333;
+}
+
+.fa-twitter {
+  color: #20AEEE;
+  margin: 0 10px;
+}
+
+.fa-envelope-o {
+  color: #dd4b39;
+}
+
+@media (max-width: 340px) {
+  .fa-twitter {
+    margin: 0 72px;
+  }
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  line-height: 2;
+}
+
+.left {
+  position: absolute;
+  left: -220px;
+}
+
+.left__me {
+  /* margin-left: -7px; */
+  border-radius: 5px;
+}
+
+.left__icons {
+  margin: 10px 0 40px;
+}
+
+.left__name {
+  margin-top: 10px;
+}
+
+.main {
+  width: 650px;
+  margin: 80px auto;
+  position: relative;
+}
+
+.main .list__item .date {
+  display: inline-block;
+  width: 100px;
+  /* color: #999; */
+  text-align: right;
+  margin-right: 20px;
+}

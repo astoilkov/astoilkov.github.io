@@ -5,94 +5,52 @@
 		<meta name="viewport" content="initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
 		<link href="http://fonts.googleapis.com/css?family=Raleway:400" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-		<style>
-			body {
-				font-family: "Raleway", "Source Sans Pro", sans-serif;
-				font-size: 19px;
-				font-weight: 400;
-				letter-spacing: 1px;
-				line-height: 48px;
-				text-align: center;
-				color: #333;
-				display: table;
-				height: 100%;
-				width: 100%;
-				margin: 0;
-				padding: 0;
-			}
-
-			a, a:visited, a:active {
-				color: #37b;
-				text-decoration: none;
-			}
-
-			img {
-				margin-left: -7px;
-				border-radius: 75px;
-			}
-
-			p {
-				margin: 24px;
-			}
-
-			.row {
-				display: table-row;
-			}
-
-			.cell {
-				display: table-cell;
-				height: 1px;
-			}
-
-			.fa {
-				font-size: 40px;
-			}
-
-			.fa-github {
-				color: #333;
-			}
-
-			.fa-twitter {
-				color: #20AEEE;
-				margin: 0 96px;
-			}
-
-			.fa-envelope-o {
-				color: #dd4b39;
-			}
-
-			@media (max-width: 340px) {
-				.fa-twitter {
-					margin: 0 72px;
-				}
-			}
-		</style>
+		<link rel="stylesheet" href="main.css">
 	</head>
 	<body>
 
-		<div class="row"></div>
-
-		<div class="row">
-			<div class="cell">
-
-				<img src="http://www.gravatar.com/avatar/69ba6e15a93bd104c3ba525637eb6aa7.png?size=100" />
-
-				<p>
-					antonio stoilkov
-					<br />
-					maker of <a href="http://jsblocks.com">jsblocks</a> and <a href="http://caret.io">Caret</a>
-				</p>
-
-				<div class="icons">
-					<a href="https://github.com/astoilkov"><span class="fa fa-github"></span></a>
-					<a href="https://twitter.com/antoniostoilkov"><span class="fa fa-twitter"></span></a>
-					<a href="mailto:hello@astoilkov.com"><span class="fa fa-envelope-o"></span></a>
+		<section class="main">
+			<aside class="left">
+				<img class="left__me" src="images/laptop-vector-manupulated.png" width="180" style="background: #eee" />
+				<div class="left__name">Antonio Stoilkov</div>
+				<div class="left__icons">
+					<a href="https://github.com/astoilkov">
+						<span class="fa fa-github"></span>
+					</a>
+					<a href="https://twitter.com/antoniostoilkov">
+						<span class="fa fa-twitter"></span>
+					</a>
+					<a href="mailto:hello@astoilkov.com">
+						<span class="fa fa-envelope-o"></span>
+					</a>
 				</div>
-
-			</div>
-		</div>
-
-		<div class="row"></div>
+				<ul class="list">
+					<li>
+						<a href="about.html">about</a>
+					</li>
+					<li>
+						<a href="#">posts</a>
+					</li>
+					<li>
+						<a href="#">projects</a>
+					</li>
+				</ul>
+			</aside>
+			<ul class="list">
+				<li class="list__item">
+					<span class="date">8 Apr, 2018</span>
+					<a class="title" href="#">desktop-prism - code highlighting optimized for desktop apps</a>
+				</li>
+				<li class="list__item">
+					<span class="date">14 Feb, 2018</span>
+					<a class="title" href="#">Realization I made after working for 2 years on a MVC framework</a>
+				</li>
+				<li class="list__item">
+					<span class="date">4 Jan, 2018</span>
+					<a class="title" href="#">Introducing jsblocks MVC framework 3 years later</a>
+				</li>
+			</ul>
+		</section>
 
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
