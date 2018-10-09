@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<ul class="list">
+    {%- if site.posts.size == 0 -%}
+        No posts yet
+    {%- else -%}
+        {%- for post in site.posts -%}
+            <li class="list__item">
+                <span class="date">{{ post.date | date: site.date_format }}</span>
+                <a class="title" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            </li>
+        {%- endfor -%}
+    {%- endif -%}
+</ul>

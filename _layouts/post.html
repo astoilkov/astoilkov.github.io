@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<article class="post " itemscope itemtype="http://schema.org/BlogPosting">
+
+  <h1 class="post__heading" itemprop="name headline">{{ page.title | escape }}</h1>
+  <time class="post__date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+    {{ page.date | date: site.date_format }}
+  </time>
+
+  <div class="post__content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  {%- if site.disqus.shortname -%}
+    {%- include disqus_comments.html -%}
+  {%- endif -%}
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>
