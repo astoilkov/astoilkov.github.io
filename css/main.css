@@ -105,6 +105,15 @@ a, a:visited, a:active {
 
 /* .timeline */
 
+.title {
+  margin: 0;
+}
+
+.sub-title {
+  font-weight: normal;
+  margin: 0;
+}
+
 .line {
   background: hsla(0, 0%, 80%, 1);
 }
